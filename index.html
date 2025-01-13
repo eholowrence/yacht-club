@@ -6,13 +6,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <header class="paige-header">
-        <a href="index.html"><img src="images/logo.svg" alt="lotype"></a>
+        <a class="logo-header" href="index.html"><img src="images/logo.svg" alt="lotype"></a>
         <nav>
             <ul class="navigation-list">
-                <li class="navigation-items">наш клуб</li>
+                <li class="navigation-items our-club">наш клуб</li>
                 <li class="navigation-items">регаты</li>
                 <li class="navigation-items">команда</li>
                 <li class="navigation-items">обучение</li>
@@ -25,45 +25,101 @@
         </nav>
     </header>
     <main>
-        <section>
-            <ul><h1>вместе под парусом</h1>
+        <section class="hero">
+            <h1 class="hero-text">вместе под парусом</h1>
             <img class="ship" src="images/ship.jpg" alt="яхта">
         </section>
-        <section>
-            <li><h3>
-                20 октября - 19 апреля
-            </h3>
-            <h2>
-                Стань частью команды
-            </h2>
-            <p>
-                Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 месяцев вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море! 
-            </p></li>
-            <li><img src="images/man.jpg" alt="мужик с биноклем"></li></ul>
-        </section>
-        <section>
-            <ul>
+        <section class="events-1">
+            <ul class="events-text">
                 <li>
-                    <img src="images/girls.jpg" alt="women's">
-                </li>
+                    <h3>
+                        20 октября - 19 апреля
+                    </h3>
+                    <h2>
+                        Стань частью команды
+                    </h2>
+                    <p class="events-about">
+                        Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 месяцев вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море! 
+                    </p>
+                    </li>
+                </ul>
+            <img src="images/man.jpg" alt="мужик с биноклем">
+        </section>
+        <section class="events-2">
+            <img src="images/girls.jpg" alt="дети на корабле">
+            <ul class="events-text events-text-2">
                 <li>
                     <h3>16 июля - 23 июля</h3>
                     <h2>Рожденные в воде</h2>
-                    <p>Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!</p>
+                    <p class="events-about">Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!</p>
                 </li>
             </ul>
         </section>
-        <section>
-            <ul>
-                <li>
-                    <img src="images/map.jpg" alt="карта">
-                </li>
-                <li>
-                    <h2>Контакты</h2>
-                    
-                </li>
-            </ul>
+        <section class="contacts">
+                <img class="map" src="images/map.jpg" alt="карта">
+                <div>
+                    <ul class="contacts-list"><li><h2 class="contacts-header">Контакты</h2></li>
+                        <li>
+                            <p><ul class="contacts-ul">
+                                <li><span class="contacts-bold">Адрес:</span> г.Сочи, ул. Бзугу, 9г.</li>
+                                <li><span class="contacts-bold">Телефон:</span> 8 (622) 62-05-63</li>
+                                <li><span class="contacts-bold">E-mail:</span> yachtclub-sochi@mail.ru</li>
+                                <li><span class="contacts-bold">Мы в социальных сетях:</span></li>
+                            </ul></p>
+                        </li>
+                        <li class="social-media"><img src="images/facebook.svg" alt="facebook"><img src="images/twitter.svg" alt="twitter"><img src="images/instagram.svg" alt="instagram"></li>
+                    </ul>
+                    </div>
         </section>
     </main>
     <footer>
+        <ul class="footer">
+            <li>
+                <ul  class="copiright">
+                    <li><img class="logo-footer" src="images/logo.svg" alt="logo"></li>
+                    <li class="copiright-text"><p>Политика конфиденциальности</p>
+                        <p>Яхтклуб ©2020 Все права защищены</p>   </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="footer-nav">
+                    <li><span class="footer-bold"><p>Компания</p></span></li>
+                    <li><p>О нас</p></li>
+                    <li><p>Команда</p></li>
+                    <li><p>Новости</p></li>
+                    <li><p>Блог</p></li>
+                    <li><p>Галерея</p></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="footer-nav">
+                    <li><span class="footer-bold"><p>Яхт-клуб</p></span></li>
+                    <li><p>Правила</p></li>
+                    <li><p>Стоимость</p></li>
+                    <li><p>Анкета</p></li>
+                    <li><p>FAQ</p></li>
+                    <li><p>Партнеры</p></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="footer-nav">
+                    <li><span class="footer-bold"><p>Услуги</p></span></li>
+                    <li><p>Аренда яхты</p></li>
+                    <li><p>Свадьба на яхте</p></li>
+                    <li><p>День рождения</p></li>
+                    <li><p>Бизнес-встречи</p></li>
+                    <li><p>Прогулки</p></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="footer-nav">
+                    <li><span class="footer-bold"><p>Регаты</p></span></li>
+                    <li><p>Корпоративные регаты</p></li>
+                    <li><p>Календарь мероприятий</p></li>
+                    <li><p>Стать участником</p></li>
+                    <li><p>Результаты регат</p></li>
+                    <li><p>Обучение</p></li>
+                </ul>
+            </li>
+        </ul>
     </footer>

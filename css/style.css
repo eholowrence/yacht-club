@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    list-style: none;
+}
+
+.paige-header {
+    display: flex;
+    margin: 0;
+    width: 1280px;
+    height: 108px;
+    margin-bottom: 40px;
+}
+
+.logo-header {
+    margin: 20px 471px 20px 55px;
+}
+
+.navigation-list {
+    display: flex;
+    width: 73px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    gap: 30px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.our-club {
+    
+}
+
+.user-icon {
+    margin-left: 10px;
+    border: 1px solid #00C6BD;
+    border-radius: 100px;
+    width: 16px;
+    height: 16px;
+    padding: 10px;
+}
+
+.hero {
+    width: 1170px;
+    height: 566px;
+    margin-bottom: 120px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.hero-text {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 60px;
+    width: 488px;
+    height: 60px;
+    margin-bottom: 40px;
+    padding-left: 70px;
+}
+
+.ship {
+    width: 1170px;
+    height: 466px;
+}
+
+.events-1, .events-2 {
+    width: 1030px;
+    height: 262px;
+    margin-bottom: 100px;
+    display: flex;
+    margin-left: 125px;
+    margin-right: 125px;
+    outline: 1px solid red;
+}
+
+.events-2 {
+    height: 252px;
+}
+
+.events-text {;
+    margin-top: 0;
+    outline: 1px solid red;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    border-bottom: 2px solid #00C6BD;
+    margin-bottom: 20px;
+    /* width: fit-content; */
+    display: inline-block;
+}
+
+.events-about {
+    width: 400px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 19px 30px 45px 0;
+}
+
+.events-text-2 {
+    text-align: end;
+    margin-left: 30px;
+    width: 400px;
+}
+
+.contacts {
+    width: 1010px;
+    height: 351px;
+    display: flex;
+    margin: 0 215px 120px 55px;
+}
+
+.map {
+    margin-right: 100px;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contacts-header {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    padding-top: 50px;
+}
+
+.contacts-ul {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.contacts-bold {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.footer {
+    width: 1280px;
+    height: 228px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.logo-footer {
+    width: 100px;
+    height: 106px;
+    margin-bottom: 30px;
+}
+
+.copiright {
+}
+
+.footer-nav {
+    width: 165px;
+    height: 166px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.footer-bold {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
